@@ -7,10 +7,7 @@ import Favorites from '../screens/favorites'
 
 import MaterialIcon from '../components/icons/MaterialIcon'
 
-export type BottomTabParamList = {
-  Home: undefined
-  Favorites: undefined
-}
+import {BottomTabParamList} from '../types'
 
 const BottomTab = createBottomTabNavigator<BottomTabParamList>()
 

@@ -4,10 +4,7 @@ import {createStackNavigator} from '@react-navigation/stack'
 import HomeScreen from '../screens/home'
 import DetailsScreen from '../screens/details'
 
-export type HomeStackParamList = {
-  Home: undefined
-  Details: undefined
-}
+import {HomeStackParamList} from '../types'
 
 const HomeStack = createStackNavigator<HomeStackParamList>()
 
